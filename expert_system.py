@@ -56,17 +56,14 @@ def diagnose(symptoms, rules):
     return sorted(probabilities.items(), key=lambda item: item[1], reverse=True)
 
 def main():
-    # Step 1: Load the Knowledge Base
-    knowledge_base_path = 'knowledge_base.json'  # Path to your JSON file
+    knowledge_base_path = 'knowledge_base.json' 
     rules = load_knowledge_base(knowledge_base_path)
     
-    # Step 2: Gather User Symptoms
     print("Welcome to the Plant Disease Diagnosis Expert System")
     print("Enter your plant's symptoms and their severities separated by commas (e.g., yellow_leaves:0.7, stunted_growth:0.8):")
     symptoms_input = input()
     user_symptoms = {symptom.split(':')[0].strip(): float(symptom.split(':')[1].strip()) for symptom in symptoms_input.split(',')}
     
-    # Step 3: Diagnose
     conclusions = diagnose(user_symptoms, rules)
     if conclusions:
         most_likely_diagnosis = conclusions[0]  # Get the top conclusion
