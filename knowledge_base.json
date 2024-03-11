@@ -1,0 +1,353 @@
+[
+    {
+        "conditions": {
+            "yellow_leaves": 0.7,
+            "stunted_growth": 0.8
+        },
+        "conclusion": "nitrogen_deficiency",
+        "confidence": 0.9,
+        "correlated_symptoms": ["pale_green_leaves", "reduced_leaf_size"]
+    },
+    {
+        "conditions": {
+            "dark_spots": 0.6,
+            "leaf_drop": 0.7
+        },
+        "conclusion": "fungal_infection",
+        "confidence": 0.8,
+        "correlated_symptoms": ["yellowing_leaves", "visible_fungal_growth"]
+    },
+    {
+        "conditions": {
+            "curled_leaves": 0.8,
+            "dry_soil": 0.6
+        },
+        "conclusion": "dehydration",
+        "confidence": 0.85,
+        "correlated_symptoms": ["wilting", "cracked_soil"]
+    },
+    {
+        "conditions": {
+            "brown_edges": 0.7,
+            "wilted_leaves": 0.8
+        },
+        "conclusion": "salt_damage",
+        "confidence": 0.75,
+        "correlated_symptoms": ["leaf_tip_burn", "excessive_salt_deposits"]
+    },
+    {
+        "conditions": {
+            "yellowing_leaves": 0.8,
+            "visible_pests": 0.9
+        },
+        "conclusion": "pest_infestation",
+        "confidence": 0.9,
+        "correlated_symptoms": ["chewed_leaves", "visible_pests"]
+    },
+    {
+        "conditions": {
+            "spotted_leaves": 0.7,
+            "mosaic_patterns": 0.8
+        },
+        "conclusion": "viral_infection",
+        "confidence": 0.8,
+        "correlated_symptoms": ["abnormal_leaf_coloration", "mosaic_patterns"]
+    },
+    {
+        "conditions": {
+            "stunted_growth": 0.7,
+            "purple_stems": 0.6
+        },
+        "conclusion": "phosphorus_deficiency",
+        "confidence": 0.7,
+        "correlated_symptoms": ["purple_stems", "stunted_growth"]
+    },
+    {
+        "conditions": {
+            "upper_leaf_yellowing": 0.7,
+            "root_rot": 0.6
+        },
+        "conclusion": "waterlogging",
+        "confidence": 0.65,
+        "correlated_symptoms": ["rotten_roots", "waterlogged_soil"]
+    },
+    {
+        "conditions": {
+            "slow_growth": 0.7,
+            "brittle_leaves": 0.8
+        },
+        "conclusion": "calcium_deficiency",
+        "confidence": 0.8,
+        "correlated_symptoms": ["brittle_leaves", "stunted_growth"]
+    },
+    {
+        "conditions": {
+            "leaf_yellowing": 0.7,
+            "vein_greening": 0.8
+        },
+        "conclusion": "iron_deficiency",
+        "confidence": 0.85,
+        "correlated_symptoms": ["vein_yellowing", "chlorotic_veins"]
+    },
+    {
+        "conditions": {
+            "thin_stems": 0.6,
+            "light_green_leaves": 0.7
+        },
+        "conclusion": "potassium_deficiency",
+        "confidence": 0.75,
+        "correlated_symptoms": ["thin_stems", "light_green_leaves"]
+    },
+    {
+        "conditions": {
+            "small_leaves": 0.7,
+            "late_flowering": 0.6
+        },
+        "conclusion": "zinc_deficiency",
+        "confidence": 0.7,
+        "correlated_symptoms": ["small_leaves", "late_flowering"]
+    },
+    {
+        "conditions": {
+            "leaf_scorch": 0.8,
+            "cracked_fruit": 0.7
+        },
+        "conclusion": "boron_deficiency",
+        "confidence": 0.65,
+        "correlated_symptoms": ["leaf_scorch", "cracked_fruit"]
+    },
+    {
+        "conditions": {
+            "purple_veins": 0.7,
+            "leaf_curl": 0.8
+        },
+        "conclusion": "magnesium_deficiency",
+        "confidence": 0.8,
+        "correlated_symptoms": ["purple_veins", "leaf_curl"]
+    },
+    {
+        "conditions": {
+            "cloudy_spots": 0.8,
+            "sunken_areas": 0.7
+        },
+        "conclusion": "bacterial_infection",
+        "confidence": 0.85,
+        "correlated_symptoms": ["cloudy_spots", "sunken_areas"]
+    },
+    {
+        "conditions": {
+            "interveinal_chlorosis": 0.9,
+            "yellow_streaks": 0.8
+        },
+        "conclusion": "sulfur_deficiency",
+        "confidence": 0.9,
+        "correlated_symptoms": ["interveinal_chlorosis", "yellow_streaks"]
+    },
+    {
+        "conditions": {
+            "excessive_growth": 0.7,
+            "dark_green_leaves": 0.6
+        },
+        "conclusion": "nitrogen_excess",
+        "confidence": 0.75,
+        "correlated_symptoms": ["excessive_growth", "dark_green_leaves"]
+    },
+    {
+        "conditions": {
+            "weak_joints": 0.6,
+            "drooping_leaves": 0.7
+        },
+        "conclusion": "silicon_deficiency",
+        "confidence": 0.7,
+        "correlated_symptoms": ["weak_joints", "drooping_leaves"]
+    },
+    {
+        "conditions": {
+            "pale_flowers": 0.7,
+            "poor_fruit_set": 0.8
+        },
+        "conclusion": "molybdenum_deficiency",
+        "confidence": 0.65,
+        "correlated_symptoms": ["pale_flowers", "poor_fruit_set"]
+    },
+    {
+        "conditions": {
+            "rolled_leaves": 0.8,
+            "thick_stems": 0.7
+        },
+        "conclusion": "copper_deficiency",
+        "confidence": 0.8,
+        "correlated_symptoms": ["rolled_leaves", "thick_stems"]
+    },
+    {
+        "conditions": {
+            "blistered_areas": 0.7,
+            "misshapen_leaves": 0.8
+        },
+        "conclusion": "herbicide_damage",
+        "confidence": 0.85,
+        "correlated_symptoms": ["blistered_areas", "misshapen_leaves"]
+    },
+    {
+        "conditions": {
+            "white_powder": 0.8,
+            "distorted_leaves": 0.9
+        },
+        "conclusion": "powdery_mildew",
+        "confidence": 0.9,
+        "correlated_symptoms": ["white_powder", "distorted_leaves"]
+    },
+    {
+        "conditions": {
+            "rusty_spots": 0.7,
+            "premature_leaf_drop": 0.8
+        },
+        "conclusion": "rust_fungus",
+        "confidence": 0.8,
+        "correlated_symptoms": ["rusty_spots", "premature_leaf_drop"]
+    },
+    {
+        "conditions": {
+            "galls": 0.75,
+            "stunted_root_growth": 0.7
+        },
+        "conclusion": "nematode_infestation",
+        "confidence": 0.75,
+        "correlated_symptoms": ["galls", "stunted_root_growth"]
+    },
+    {
+        "conditions": {
+            "yellow_stripe": 0.7,
+            "stunted_seedlings": 0.8
+        },
+        "conclusion": "stripe_rust",
+        "confidence": 0.7,
+        "correlated_symptoms": ["yellow_stripe", "stunted_seedlings"]
+    },
+    {
+        "conditions": {
+            "black_spots": 0.8,
+            "rotten_fruit": 0.7
+        },
+        "conclusion": "black_spot_fungus",
+        "confidence": 0.85,
+        "correlated_symptoms": ["black_spots", "rotten_fruit"]
+    },
+    {
+        "conditions": {
+            "waxy_coating": 0.6,
+            "moldy_smell": 0.7
+        },
+        "conclusion": "botrytis_bligh",
+        "confidence": 0.65,
+        "correlated_symptoms": ["waxy_coating", "moldy_smell"]
+    },
+    {
+        "conditions": {
+            "red_spiders": 0.7,
+            "discolored_leaves": 0.8
+        },
+        "conclusion": "spider_mite_infestation",
+        "confidence": 0.8,
+        "correlated_symptoms": ["red_spiders", "discolored_leaves"]
+    },
+    {
+        "conditions": {
+            "bumpy_fruit": 0.8,
+            "color_breaks": 0.7
+        },
+        "conclusion": "virus_transmission",
+        "confidence": 0.9,
+        "correlated_symptoms": ["bumpy_fruit", "color_breaks"]
+    },
+    {
+        "conditions": {
+            "wilting": 0.8,
+            "high_soil_moisture": 0.7
+        },
+        "conclusion": "overwatering",
+        "confidence": 0.85,
+        "correlated_symptoms": ["wilting", "muddy_soil"]
+    },
+    {
+        "conditions": {
+            "slow_fruit_development": 0.7,
+            "leaf_burn": 0.6
+        },
+        "conclusion": "overfertilization",
+        "confidence": 0.75,
+        "correlated_symptoms": ["slow_fruit_development", "leaf_burn"]
+    },
+    {
+        "conditions": {
+            "uneven_fruit_color": 0.6,
+            "delayed_harvest": 0.7
+        },
+        "conclusion": "irregular_lighting",
+        "confidence": 0.7,
+        "correlated_symptoms": ["uneven_fruit_color", "delayed_harvest"]
+    },
+    {
+        "conditions": {
+            "leaf_miners": 0.7,
+            "serpentine_trails": 0.8
+        },
+        "conclusion": "leaf_miner_infestation",
+        "confidence": 0.85,
+        "correlated_symptoms": ["leaf_miners", "serpentine_trails"]
+    },
+    {
+        "conditions": {
+            "snail_marks": 0.6,
+            "eaten_leaves": 0.7
+        },
+        "conclusion": "snail_infestation",
+        "confidence": 0.65,
+        "correlated_symptoms": ["snail_marks", "eaten_leaves"]
+    },
+    {
+        "conditions": {
+            "aphid_colonies": 0.8,
+            "sticky_leaves": 0.9
+        },
+        "conclusion": "aphid_infestation",
+        "confidence": 0.9,
+        "correlated_symptoms": ["aphid_colonies", "sticky_leaves"]
+    },
+    {
+        "conditions": {
+            "bacterial_ooze": 0.7,
+            "foul_smell": 0.8
+        },
+        "conclusion": "bacterial_soft_rot",
+        "confidence": 0.8,
+        "correlated_symptoms": ["bacterial_ooze", "foul_smell"]
+    },
+    {
+        "conditions": {
+            "chlorotic_spots": 0.8,
+            "leaf_distortion": 0.7
+        },
+        "conclusion": "mosaic_virus",
+        "confidence": 0.85,
+        "correlated_symptoms": ["chlorotic_spots", "leaf_distortion"]
+    },
+    {
+        "conditions": {
+            "wilting_flowers": 0.7,
+            "rotting_stems": 0.8
+        },
+        "conclusion": "stem_rot",
+        "confidence": 0.75,
+        "correlated_symptoms": ["wilting_flowers", "rotting_stems"]
+    },
+    {
+        "conditions": {
+            "shriveled_seeds": 0.6,
+            "moldy_surfaces": 0.7
+        },
+        "conclusion": "seed_fungus",
+        "confidence": 0.65,
+        "correlated_symptoms": ["shriveled_seeds", "moldy_surfaces"]
+    }
+]
